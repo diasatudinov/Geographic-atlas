@@ -7,18 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940FE5222A1246E900960724 /* RowUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FE5212A1246E900960724 /* RowUIView.swift */; };
+		940FE5272A12BCFB00960724 /* FullInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FE5262A12BCFB00960724 /* FullInfoView.swift */; };
+		941582572A14586A000C176F /* DegreeDecimalMinutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941582562A14586A000C176F /* DegreeDecimalMinutes.swift */; };
+		9415825A2A145929000C176F /* LocationFormatter in Frameworks */ = {isa = PBXBuildFile; productRef = 941582592A145929000C176F /* LocationFormatter */; };
+		9415825C2A146EC4000C176F /* BackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9415825B2A146EC4000C176F /* BackButtonView.swift */; };
+		9415825E2A147629000C176F /* ViewModelCountryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9415825D2A147629000C176F /* ViewModelCountryDetail.swift */; };
+		941582612A1476F2000C176F /* CountryDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941582602A1476F2000C176F /* CountryDetailModel.swift */; };
+		941582642A1477AF000C176F /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941582632A1477AF000C176F /* RoundedCorner.swift */; };
+		941582692A1478C9000C176F /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941582682A1478C9000C176F /* StringExtension.swift */; };
+		9415826B2A147928000C176F /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9415826A2A147928000C176F /* ViewExtension.swift */; };
 		943CDC1F2A10CBE6009024CA /* Geographic_atlasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943CDC1E2A10CBE6009024CA /* Geographic_atlasApp.swift */; };
 		943CDC212A10CBE6009024CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943CDC202A10CBE6009024CA /* ContentView.swift */; };
 		943CDC232A10CBF1009024CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943CDC222A10CBF1009024CA /* Assets.xcassets */; };
 		943CDC262A10CBF1009024CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943CDC252A10CBF1009024CA /* Preview Assets.xcassets */; };
+		9489CEC22A14A1D3002513AB /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9489CEC12A14A1D3002513AB /* Notification.swift */; };
+		9490FBA32A14D7010005FE90 /* CountryDetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9490FBA22A14D7010005FE90 /* CountryDetailService.swift */; };
+		9490FBA52A14D7310005FE90 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9490FBA42A14D7310005FE90 /* Errors.swift */; };
+		94DC687F2A10F47D0009B36C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC687E2A10F47D0009B36C /* ViewModel.swift */; };
+		94DC68812A1158010009B36C /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC68802A1158000009B36C /* Country.swift */; };
+		94DC68832A11590B0009B36C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC68822A11590B0009B36C /* Service.swift */; };
+		94DC68852A1185C50009B36C /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC68842A1185C50009B36C /* ImageLoader.swift */; };
+		94FFD4A42A13AEFD002E4966 /* CountryDetailsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FFD4A32A13AEFD002E4966 /* CountryDetailsUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		940FE5212A1246E900960724 /* RowUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowUIView.swift; sourceTree = "<group>"; };
+		940FE5262A12BCFB00960724 /* FullInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullInfoView.swift; sourceTree = "<group>"; };
+		941582562A14586A000C176F /* DegreeDecimalMinutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DegreeDecimalMinutes.swift; sourceTree = "<group>"; };
+		9415825B2A146EC4000C176F /* BackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonView.swift; sourceTree = "<group>"; };
+		9415825D2A147629000C176F /* ViewModelCountryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelCountryDetail.swift; sourceTree = "<group>"; };
+		941582602A1476F2000C176F /* CountryDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailModel.swift; sourceTree = "<group>"; };
+		941582632A1477AF000C176F /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		941582682A1478C9000C176F /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		9415826A2A147928000C176F /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		943CDC1B2A10CBE6009024CA /* Geographic atlas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geographic atlas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		943CDC1E2A10CBE6009024CA /* Geographic_atlasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geographic_atlasApp.swift; sourceTree = "<group>"; };
 		943CDC202A10CBE6009024CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		943CDC222A10CBF1009024CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		943CDC252A10CBF1009024CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9489CEC12A14A1D3002513AB /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		9490FBA22A14D7010005FE90 /* CountryDetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailService.swift; sourceTree = "<group>"; };
+		9490FBA42A14D7310005FE90 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		94DC687E2A10F47D0009B36C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		94DC68802A1158000009B36C /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		94DC68822A11590B0009B36C /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		94DC68842A1185C50009B36C /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		94FFD4A32A13AEFD002E4966 /* CountryDetailsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailsUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +61,83 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9415825A2A145929000C176F /* LocationFormatter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		940FE5252A12BC0300960724 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				941582672A147881000C176F /* Cells */,
+				943CDC1E2A10CBE6009024CA /* Geographic_atlasApp.swift */,
+				943CDC202A10CBE6009024CA /* ContentView.swift */,
+				94FFD4A32A13AEFD002E4966 /* CountryDetailsUIView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9415825F2A14765F000C176F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				94DC687E2A10F47D0009B36C /* ViewModel.swift */,
+				9415825D2A147629000C176F /* ViewModelCountryDetail.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		941582622A147750000C176F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94DC68802A1158000009B36C /* Country.swift */,
+				941582602A1476F2000C176F /* CountryDetailModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		941582652A1477E2000C176F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9415826C2A147951000C176F /* Extensions */,
+				9490FBA42A14D7310005FE90 /* Errors.swift */,
+				9489CEC12A14A1D3002513AB /* Notification.swift */,
+				941582562A14586A000C176F /* DegreeDecimalMinutes.swift */,
+				94DC68842A1185C50009B36C /* ImageLoader.swift */,
+				941582632A1477AF000C176F /* RoundedCorner.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		941582662A147858000C176F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				94DC68822A11590B0009B36C /* Service.swift */,
+				9490FBA22A14D7010005FE90 /* CountryDetailService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		941582672A147881000C176F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				940FE5212A1246E900960724 /* RowUIView.swift */,
+				940FE5262A12BCFB00960724 /* FullInfoView.swift */,
+				9415825B2A146EC4000C176F /* BackButtonView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9415826C2A147951000C176F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				941582682A1478C9000C176F /* StringExtension.swift */,
+				9415826A2A147928000C176F /* ViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		943CDC122A10CBE5009024CA = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +157,11 @@
 		943CDC1D2A10CBE6009024CA /* Geographic atlas */ = {
 			isa = PBXGroup;
 			children = (
-				943CDC1E2A10CBE6009024CA /* Geographic_atlasApp.swift */,
-				943CDC202A10CBE6009024CA /* ContentView.swift */,
+				9415825F2A14765F000C176F /* ViewModels */,
+				940FE5252A12BC0300960724 /* Views */,
+				941582652A1477E2000C176F /* Helpers */,
+				941582662A147858000C176F /* Services */,
+				941582622A147750000C176F /* Models */,
 				943CDC222A10CBF1009024CA /* Assets.xcassets */,
 				943CDC242A10CBF1009024CA /* Preview Content */,
 			);
@@ -83,6 +192,9 @@
 			dependencies = (
 			);
 			name = "Geographic atlas";
+			packageProductDependencies = (
+				941582592A145929000C176F /* LocationFormatter */,
+			);
 			productName = "Geographic atlas";
 			productReference = 943CDC1B2A10CBE6009024CA /* Geographic atlas.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +223,9 @@
 				Base,
 			);
 			mainGroup = 943CDC122A10CBE5009024CA;
+			packageReferences = (
+				941582582A145929000C176F /* XCRemoteSwiftPackageReference "LocationFormatter" */,
+			);
 			productRefGroup = 943CDC1C2A10CBE6009024CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +252,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				940FE5222A1246E900960724 /* RowUIView.swift in Sources */,
+				94DC68812A1158010009B36C /* Country.swift in Sources */,
+				9489CEC22A14A1D3002513AB /* Notification.swift in Sources */,
+				941582692A1478C9000C176F /* StringExtension.swift in Sources */,
 				943CDC212A10CBE6009024CA /* ContentView.swift in Sources */,
+				941582612A1476F2000C176F /* CountryDetailModel.swift in Sources */,
+				94DC68852A1185C50009B36C /* ImageLoader.swift in Sources */,
+				9490FBA52A14D7310005FE90 /* Errors.swift in Sources */,
+				9415826B2A147928000C176F /* ViewExtension.swift in Sources */,
+				94DC68832A11590B0009B36C /* Service.swift in Sources */,
+				941582642A1477AF000C176F /* RoundedCorner.swift in Sources */,
+				941582572A14586A000C176F /* DegreeDecimalMinutes.swift in Sources */,
+				94DC687F2A10F47D0009B36C /* ViewModel.swift in Sources */,
+				94FFD4A42A13AEFD002E4966 /* CountryDetailsUIView.swift in Sources */,
+				9415825C2A146EC4000C176F /* BackButtonView.swift in Sources */,
 				943CDC1F2A10CBE6009024CA /* Geographic_atlasApp.swift in Sources */,
+				9490FBA32A14D7010005FE90 /* CountryDetailService.swift in Sources */,
+				9415825E2A147629000C176F /* ViewModelCountryDetail.swift in Sources */,
+				940FE5272A12BCFB00960724 /* FullInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +471,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		941582582A145929000C176F /* XCRemoteSwiftPackageReference "LocationFormatter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/salishseasoftware/LocationFormatter.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		941582592A145929000C176F /* LocationFormatter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 941582582A145929000C176F /* XCRemoteSwiftPackageReference "LocationFormatter" */;
+			productName = LocationFormatter;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 943CDC132A10CBE5009024CA /* Project object */;
 }

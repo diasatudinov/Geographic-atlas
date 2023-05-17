@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "locationformatter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/salishseasoftware/LocationFormatter.git",
+      "state" : {
+        "revision" : "fba731ae8adf34dc42b7782cfd8db5052daff931",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "utmconversion",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wtw-software/UTMConversion",
+      "state" : {
+        "revision" : "53172a2f32b4c403a7ab362e0995fd48e9ef9d2b",
+        "version" : "1.4.0"
+      }
+    }
+  ],
+  "version" : 2
+}
